@@ -12,14 +12,16 @@ let square4 = squares(4);
 
 
 /// execution context is again divided into two phase 
-//// 1. Memory creation phase --->> in this phase js will store values for all variables and functions. so initially js store value of varibales as undefined and in case function js store whole function inside memory
+//// 1. Memory creation phase --->> in this phase js will store values for all variables and functions. so initially js store value of varibales as undefined and in case function js store whole function inside memory as it is.
 //// 2. Code Execution Phase --->> as during memory allocation phase, all variables are as undefined, so in this phase the code run line by line and stores the definite value for ex. n=2; 
+
+
 //// 3. Invocation --->>> as we see on line no 10 -->> squares(n) here we invoked a function and passed argument to the function if required.
-//// during function writing we passed arguments to the function here num passed to the square(num) function after this function invocation again a new execution context is created and again steps from 1 start repeating. Once function invocation during squares(n) is done then all the Execution context deleted
+//// during function defination we passed parameters to the function here num passed to the square(num) function after this function invocation again a new execution context is created and again steps from 1 start repeating. Once function invocation during squares(n) is done then all the Execution context deleted
 
 ///// Once all execution phase of square(n) run then return ans value will get stored into square2 variable which is undefined during memory allocation phase.
 
-//// function is heart of js while function invocation  a new execution context is created
+//// function is heart of js. while function invocation,  a new execution context is created
 
 //// Once all the code executed then the whole execution including golbal as well as local will get deleted  
 
