@@ -21,3 +21,7 @@ console.log(b);
 
 //// Note --->> Never assign a value to a variable as undefined because undefined has its advantage. Undefined assigned to a variable only just saying that any value not assign to that specific variable throught the entire programm.
 //// b = undefined ///// bad practice 
+
+let testing = () => {
+    console.log('this is for testinf purpose')
+}
