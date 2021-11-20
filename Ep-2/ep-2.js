@@ -13,7 +13,7 @@ let square4 = squares(4);
 
 /// execution context is again divided into two phase 
 //// 1. Memory creation phase --->> in this phase js will store values for all variables and functions. so initially js store value of varibales as undefined and in case function js store whole function inside memory as it is.
-//// 2. Code Execution Phase --->> as during memory allocation phase, all variables are as undefined, so in this phase the code run line by line and stores the definite value for ex. n=2; 
+//// 2. Code Execution Phase --->> as during memory allocation phase, all variables are as undefined, so in this phase the code run line by line and stores the definite value to the variables for ex. n=2; 
 
 
 //// 3. Invocation --->>> as we see on line no 10 -->> squares(n) here we invoked a function and passed argument to the function if required.
