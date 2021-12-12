@@ -23,16 +23,16 @@ let square4 = squares(4);
 
 //// function is heart of js. while function invocation,  a new execution context is created
 
-//// Once all the code executed then the whole execution including golbal as well as local will get deleted  
+//// Once all the code executed then the whole execution including global as well as local will get deleted  
 
 
 //// Creation of nested Execution context is difficult for Js so that purpose there is call stack facility inside js
 /// so what is call stack in js ?
-/// Sp in call stack, at bottomost golbal execution context is created and then nested execution context is created over bottomost golbal execution context one by one.
+/// Sp in call stack, at bottomost global execution context is created and then nested execution context is created over bottomost global execution context one by one.
 //// So for managing Execution context , call stack is there in Js
 
 
-///// MOST IMP --->>> Call Stack maintains thr order of execution of execution contexts
+///// MOST IMP --->>> Call Stack maintains the order of execution of execution contexts
 //// Call Stack is also called as 
 //// 1. Execution context stack
 //// 2. Program Stack

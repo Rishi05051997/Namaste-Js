@@ -1,4 +1,4 @@
-//// Everithing in Javascript happens inside an Execution context
+//// Everything in Javascript happens inside an Execution context
 //// Execution context is nothing but a container or box where whole js code is executed
 
 /// Execution context is divided into two components 

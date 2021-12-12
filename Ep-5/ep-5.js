@@ -1,4 +1,4 @@
-//// In Javascript if we run our program without writing a single code then Js will create a Global Window object, this object as well as 
+//// In Javascript if we run our program without writing a single code then Js will create a Global Window object, "this" object as well as 
 //// Global memory object
 
 let x = 10;

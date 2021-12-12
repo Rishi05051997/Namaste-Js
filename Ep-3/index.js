@@ -1,4 +1,4 @@
-///// Hoisting in js --->>> So Hoisting in js is nothing but we can access both function as well as variable even before initialization of both variables as well as functions. we can acess that without any error
+///// Hoisting in js --->>> So Hoisting in js is nothing but we can access both function as well as variable even before initialization of both variables as well as functions. we can access that without any error
 ///// Even before code start executing the memory is allocated to all variables and functions.
 console.log(getname)
 /// ƒ getname(){
