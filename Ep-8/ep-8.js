@@ -6,7 +6,7 @@ var b = 100; //// so during memory allocation phase var varible stored in window
 
 //// Temporal Dead Zone is the time since when this let variable is hoisted and till the time that variable has initialize a definite value
 
-//// Here we can say that let is little but strict then var if we declare a variable with let then we can't decleare same duplicate name 
+//// Here we can say that let is little but strict than var if we declare a variable with let then we can't decleare same duplicate name 
 
 // console.log(d) ///// Here we will get Referance error as d is in temporal dead zone
 let d = 500;
@@ -21,7 +21,7 @@ let d = 500;
 
 
 //// What we need to used 
-/// 1. Always first place used const -->> whenever the value which is assigne to a variable dont channge throughtout entire program then create that variable with const
+/// 1. Always first place used const -->> whenever the value which is assign to a variable dont change throughtout entire program then create that variable with const
 /// 2. used let after const priority so that we will not faced undefine or not defined error
 /// 3. keep var aside dont used it now 
 

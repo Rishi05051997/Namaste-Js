@@ -9,7 +9,7 @@ function a(){
 
 a();
 
-/// So above one is a function statement, so it is nothing but of defining a function that is nothing but function statement
+/// So above one is a function statement, so it is nothing but a way of defining a function that is nothing but function statement
 
 /// Function Expression is also knows as Function Declearation 
 

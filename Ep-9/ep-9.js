@@ -1,15 +1,16 @@
-//// Block,Scoped, shadowing
+z//// Block,Scoped, shadowing
 
 //// Block is nothing but {} so block is combiniting multiple JS statements into a group
 
 
-//// in case of if conndition if our condition stop same only then we dont need to used {} but we need group statements then we use block i.e.., {}
+//// in case of if conndition if our condition stop same line only then we dont need to used {} but we need group of statements then we use block i.e.., {}
 var main = "Vrushabh";
 let game = "Cricket";
 if(true){
     let a = 50;
     console.log(a);
-}
+} 
+
 
 {   
     var main = "Ganesh"; ///// here we see that main variable is decleared globally as well as locally so it is nothing but showdowing in jS in this if we access main variable then it will print Ganesh instead of Vrushabh
@@ -20,7 +21,7 @@ if(true){
     const d = 50;
 
     //// in above case let & const variables are hoisted in Block scope 
-    ///// var is hoisted in Global Execution context i/e.., windwon object
+    ///// var is hoisted in Global Execution context i/e.., window object
     //// But let & const both varibles are not accessible outside scope as it's block scope variables
     //// but var variable can accessible outside scope as it's stored in a window object
     console.log(m);

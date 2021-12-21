@@ -19,7 +19,7 @@ console.log(b);
 b="vrushbbh";
 console.log(b);
 
-//// Note --->> Never assign a value to a variable as undefined because undefined has its advantage. Undefined assigned to a variable only just saying that any value not assign to that specific variable throught the entire programm.
+//// Note --->> Never assign a value to a variable as undefined because undefined has its advantage. Undefined assigned to a variable only just saying that any value not assign to that specific variable throughtout the entire programm.
 //// b = undefined ///// bad practice 
 
 let testing = () => {

@@ -13,7 +13,7 @@ x = 7;
 function getname(){
     console.log("Hello")
 }
-///// below one is flat arrow function but getName is consider as a variable so whenever we accessing getName before defined we will get undefined
+///// below one is flat arrow function but getName is consider as a variable so whenever we are accessing getName before defined we will get undefined
 var getName = () => {
     console.log("Hello")
 }
