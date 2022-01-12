@@ -1,9 +1,9 @@
 z//// Block,Scoped, shadowing
 
-//// Block is nothing but {} so block is combiniting multiple JS statements into a group
+//// Block is nothing but {} so block is combining multiple JS statements into a group
 
 
-//// in case of if conndition if our condition stop same line only then we dont need to used {} but we need group of statements then we use block i.e.., {}
+//// in case of if conndition if our condition stop same line only then we don't need to used {} but we need group of statements then we use block i.e.., {}
 var main = "Vrushabh";
 let game = "Cricket";
 if(true){
@@ -15,7 +15,7 @@ if(true){
 {   
     var main = "Ganesh"; ///// here we see that main variable is decleared globally as well as locally so it is nothing but showdowing in jS in this if we access main variable then it will print Ganesh instead of Vrushabh
     let game = "Hokky";
-    console.log(game); ///// Here we see that game is decleared globally as well as locally but in case of let variable game can't shadown global game variable as we know let block scope variable so local game variable is limited to this perticular local block scope it can;t accessible outside this block
+    console.log(game); ///// Here we see that game is decleared globally as well as locally but in case of let variable game can't shadown global game variable as we know let block scope variable so local game variable is limited to this perticular local block scope it can't accessible outside this block
     var m = 10;
     let n = 20;
     const d = 50;

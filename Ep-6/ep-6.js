@@ -1,7 +1,7 @@
 ///// Difference between undefined and not defined 
 /// While memory allocation, js will allocate memory to a variable as undefined if the variable is not already defined then we will faced an error i.e.., not defined
 console.log(x) //// here we will get undefined 
-// console.log(y) //// here we will get an error saying variable y is not defined 
+// console.log(y) //// here we will get an error saying variable y is not defined so we can see y as a varibale is not defined throughout the entire program
 var x = 9;
 
 
@@ -23,5 +23,5 @@ console.log(b);
 //// b = undefined ///// bad practice 
 
 let testing = () => {
-    console.log('this is for testinf purpose')
+    console.log('this is for testing purpose')
 }

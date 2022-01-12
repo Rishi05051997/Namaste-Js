@@ -26,9 +26,9 @@ let square4 = squares(4);
 //// Once all the code executed then the whole execution including global as well as local will get deleted  
 
 
-//// Creation of nested Execution context is difficult for Js so that purpose there is call stack facility inside js
+//// Creation of nested Execution context is difficult for Js so for that purpose there is call stack facility inside js
 /// so what is call stack in js ?
-/// Sp in call stack, at bottomost global execution context is created and then nested execution context is created over bottomost global execution context one by one.
+/// So in call stack, at bottomost global execution context is created and then nested execution context is created over bottomost global execution context one by one.
 //// So for managing Execution context , call stack is there in Js
 
 

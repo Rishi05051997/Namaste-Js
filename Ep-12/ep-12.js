@@ -7,7 +7,7 @@ function x(b){
     function y(){
         console.log(a,b);
     }
-    /// var a = 15; //// in case of closure the seqence of defining a variable is not affect 
+    /// var a = 15; //// in case of closure the seqence of defining a variable not matters
     return y;
 }
 

@@ -11,7 +11,7 @@ var b = 100; //// so during memory allocation phase var varible stored in window
 // console.log(d) ///// Here we will get Referance error as d is in temporal dead zone
 let d = 500;
 
-// const e; //// Here we will get Syntaxerror as here there was no any asing value to const e;
+// const e; //// Here we will get Syntaxerror as here there was no any assing value to const e;
 
 
 //// Ways to declear a variable 
@@ -23,6 +23,6 @@ let d = 500;
 //// What we need to used 
 /// 1. Always first place used const -->> whenever the value which is assign to a variable dont change throughtout entire program then create that variable with const
 /// 2. used let after const priority so that we will not faced undefine or not defined error
-/// 3. keep var aside dont used it now 
+/// 3. keep var asside dont used it now 
 
 //// Best way to avoid Temporal dead zone is that put decleartions as well as initialization on the top of program
